@@ -1,5 +1,7 @@
 # The mental model of the three pilars
 
+![three pillars model](./three_pillars_model.svg)
+
 > **Quick glossary.** Five terms used throughout this lesson, each explained briefly:
 >
 > - **Frontier model:** the strongest model a company currently offers to the public. It describes the leading position in its lineup, not a permanent product, so the name changes frequently.

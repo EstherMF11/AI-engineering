@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title description">
+  <title id="title">The Three Pillars of Effective AI Engineering</title>
+  <desc id="description">A visual model showing Tool, Context, and Prompt as three co-equal pillars. Tool provides capability, Context provides relevant information, and Prompt provides a verifiable assignment. Together they produce effective AI work.</desc>
+
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#152329" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .display { font-family: "Aptos Display", "Trebuchet MS", sans-serif; }
+      .body { font-family: "Aptos", "Trebuchet MS", sans-serif; }
+      .label { font-size: 18px; font-weight: 700; letter-spacing: 1.8px; }
+      .pillar-title { font-size: 39px; font-weight: 800; }
+      .pillar-subtitle { font-size: 20px; font-weight: 700; }
+      .copy { font-size: 19px; fill: #33464d; }
+      .item { font-size: 18px; font-weight: 650; fill: #263a41; }
+      .question-label { font-size: 14px; font-weight: 800; letter-spacing: 1.4px; }
+      .question { font-size: 18px; font-weight: 700; fill: #13252c; }
+      .diagnosis { font-size: 17px; font-weight: 700; fill: #24383f; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="1000" fill="#f4f7f5"/>
+  <path d="M0 0H1600V12H0Z" fill="#172a31"/>
+  <path d="M0 988H1600V1000H0Z" fill="#172a31"/>
+
+  <!-- Header -->
+  <text x="80" y="78" class="display" font-size="26" font-weight="800" fill="#557078" letter-spacing="2.5">MENTAL MODEL</text>
+  <text x="80" y="132" class="display" font-size="52" font-weight="850" fill="#14272e">The three pillars of effective AI work</text>
+  <text x="80" y="169" class="body" font-size="22" fill="#52676e">The model sets the potential. These three pillars determine how much of it becomes a reliable result.</text>
+  <g transform="translate(1304 88)">
+    <rect width="216" height="58" rx="8" fill="#ffffff" stroke="#c8d4d0" stroke-width="2"/>
+    <circle cx="31" cy="29" r="10" fill="#16847b"/>
+    <circle cx="55" cy="29" r="10" fill="#d99b2b"/>
+    <circle cx="79" cy="29" r="10" fill="#d85f54"/>
+    <text x="101" y="35" class="body" font-size="17" font-weight="750" fill="#294047">CO-EQUAL</text>
+  </g>
+
+  <!-- Connectors behind cards -->
+  <path d="M280 646V694H800V724" fill="none" stroke="#16847b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+  <path d="M800 646V724" fill="none" stroke="#d99b2b" stroke-width="5" stroke-linecap="round" opacity="0.80"/>
+  <path d="M1320 646V694H800V724" fill="none" stroke="#d85f54" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+  <circle cx="800" cy="724" r="8" fill="#172a31"/>
+
+  <!-- Tool pillar -->
+  <g filter="url(#shadow)">
+    <rect x="80" y="210" width="400" height="436" rx="8" fill="#ffffff" stroke="#b8d9d4" stroke-width="2"/>
+    <rect x="80" y="210" width="400" height="12" rx="6" fill="#16847b"/>
+  </g>
+  <g transform="translate(110 252)">
+    <rect width="62" height="62" rx="8" fill="#dff2ef"/>
+    <rect x="13" y="15" width="36" height="30" rx="3" fill="none" stroke="#126d67" stroke-width="3"/>
+    <path d="M20 25L26 30L20 35M31 36H42" fill="none" stroke="#126d67" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="82" y="18" class="body label" fill="#16847b">PILLAR 01</text>
+    <text x="82" y="57" class="display pillar-title" fill="#14272e">TOOL</text>
+  </g>
+  <text x="110" y="346" class="body pillar-subtitle" fill="#126d67">Capability + harness</text>
+  <text x="110" y="380" class="body copy">
+    <tspan x="110" dy="0">What the AI can observe, change,</tspan>
+    <tspan x="110" dy="27">execute, and verify.</tspan>
+  </text>
+  <g transform="translate(110 454)">
+    <circle cx="8" cy="-6" r="5" fill="#16847b"/><text x="24" y="0" class="body item">Read and edit files</text>
+    <circle cx="8" cy="34" r="5" fill="#16847b"/><text x="24" y="40" class="body item">Terminal, tests, and search</text>
+    <circle cx="8" cy="74" r="5" fill="#16847b"/><text x="24" y="80" class="body item">MCP, agents, and permissions</text>
+  </g>
+  <rect x="104" y="565" width="352" height="58" rx="6" fill="#edf8f6"/>
+  <text x="124" y="587" class="body question-label" fill="#16847b">DIAGNOSTIC QUESTION</text>
+  <text x="124" y="611" class="body question">Can it perform and verify the task?</text>
+
+  <!-- Context pillar -->
+  <g filter="url(#shadow)">
+    <rect x="600" y="210" width="400" height="436" rx="8" fill="#ffffff" stroke="#ead29d" stroke-width="2"/>
+    <rect x="600" y="210" width="400" height="12" rx="6" fill="#d99b2b"/>
+  </g>
+  <g transform="translate(630 252)">
+    <rect width="62" height="62" rx="8" fill="#fff1d3"/>
+    <path d="M16 18H46M16 29H40M16 40H35" fill="none" stroke="#a66f10" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="45" cy="42" r="8" fill="none" stroke="#a66f10" stroke-width="3"/>
+    <path d="M51 48L56 53" stroke="#a66f10" stroke-width="3" stroke-linecap="round"/>
+    <text x="82" y="18" class="body label" fill="#b77c15">PILLAR 02</text>
+    <text x="82" y="57" class="display pillar-title" fill="#14272e">CONTEXT</text>
+  </g>
+  <text x="630" y="346" class="body pillar-subtitle" fill="#a66f10">Relevant information now</text>
+  <text x="630" y="380" class="body copy">
+    <tspan x="630" dy="0">What the AI has available when</tspan>
+    <tspan x="630" dy="27">it makes the next decision.</tspan>
+  </text>
+  <g transform="translate(630 454)">
+    <circle cx="8" cy="-6" r="5" fill="#d99b2b"/><text x="24" y="0" class="body item">Relevant files and functions</text>
+    <circle cx="8" cy="34" r="5" fill="#d99b2b"/><text x="24" y="40" class="body item">Tests, errors, and evidence</text>
+    <circle cx="8" cy="74" r="5" fill="#d99b2b"/><text x="24" y="80" class="body item">Conventions and decisions</text>
+  </g>
+  <rect x="624" y="565" width="352" height="58" rx="6" fill="#fff7e7"/>
+  <text x="644" y="587" class="body question-label" fill="#b77c15">DIAGNOSTIC QUESTION</text>
+  <text x="644" y="611" class="body question">Does it see the right information now?</text>
+
+  <!-- Prompt pillar -->
+  <g filter="url(#shadow)">
+    <rect x="1120" y="210" width="400" height="436" rx="8" fill="#ffffff" stroke="#efc1bc" stroke-width="2"/>
+    <rect x="1120" y="210" width="400" height="12" rx="6" fill="#d85f54"/>
+  </g>
+  <g transform="translate(1150 252)">
+    <rect width="62" height="62" rx="8" fill="#fde8e5"/>
+    <path d="M16 17H46V42H29L20 50V42H16Z" fill="none" stroke="#b8463d" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M23 25H40M23 33H35" stroke="#b8463d" stroke-width="3" stroke-linecap="round"/>
+    <text x="82" y="18" class="body label" fill="#c84e45">PILLAR 03</text>
+    <text x="82" y="57" class="display pillar-title" fill="#14272e">PROMPT</text>
+  </g>
+  <text x="1150" y="346" class="body pillar-subtitle" fill="#b8463d">A verifiable assignment</text>
+  <text x="1150" y="380" class="body copy">
+    <tspan x="1150" dy="0">What result is required and how</tspan>
+    <tspan x="1150" dy="27">everyone will recognize success.</tspan>
+  </text>
+  <g transform="translate(1150 454)">
+    <circle cx="8" cy="-6" r="5" fill="#d85f54"/><text x="24" y="0" class="body item">Outcome and scope</text>
+    <circle cx="8" cy="34" r="5" fill="#d85f54"/><text x="24" y="40" class="body item">Explicit success criteria</text>
+    <circle cx="8" cy="74" r="5" fill="#d85f54"/><text x="24" y="80" class="body item">Constraints and references</text>
+  </g>
+  <rect x="1144" y="565" width="352" height="58" rx="6" fill="#fdf0ee"/>
+  <text x="1164" y="587" class="body question-label" fill="#c84e45">DIAGNOSTIC QUESTION</text>
+  <text x="1164" y="611" class="body question">Does it know what success means?</text>
+
+  <!-- Shared result -->
+  <g filter="url(#shadow)">
+    <rect x="370" y="724" width="860" height="104" rx="8" fill="#172a31"/>
+  </g>
+  <text x="800" y="763" text-anchor="middle" class="body" font-size="16" font-weight="800" letter-spacing="2.4" fill="#b9c9cd">SHARED OUTCOME</text>
+  <text x="800" y="805" text-anchor="middle" class="display" font-size="32" font-weight="850" fill="#ffffff">RESULT = TOOL x CONTEXT x PROMPT</text>
+
+  <!-- Diagnostic footer -->
+  <text x="80" y="880" class="display" font-size="22" font-weight="800" fill="#14272e">Find the weak pillar before changing the model</text>
+  <g transform="translate(80 906)">
+    <rect width="440" height="48" rx="6" fill="#e4f3f1"/>
+    <rect width="7" height="48" rx="3" fill="#16847b"/>
+    <text x="24" y="30" class="body diagnosis">Cannot execute or test?  Improve TOOL.</text>
+  </g>
+  <g transform="translate(580 906)">
+    <rect width="440" height="48" rx="6" fill="#fff1d6"/>
+    <rect width="7" height="48" rx="3" fill="#d99b2b"/>
+    <text x="24" y="30" class="body diagnosis">Ignores conventions?  Improve CONTEXT.</text>
+  </g>
+  <g transform="translate(1080 906)">
+    <rect width="440" height="48" rx="6" fill="#fbe7e4"/>
+    <rect width="7" height="48" rx="3" fill="#d85f54"/>
+    <text x="24" y="30" class="body diagnosis">Solves the wrong task?  Improve PROMPT.</text>
+  </g>
+</svg>
