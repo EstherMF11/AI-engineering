@@ -1,4 +1,12 @@
-# Harness Engineering
+# The mental model of the three pilars
+
+> **Quick glossary.** Five terms used throughout this lesson, each explained briefly:
+>
+> - **Frontier model:** the strongest model a company currently offers to the public. It describes the leading position in its lineup, not a permanent product, so the name changes frequently.
+> - **Coding benchmark:** a standardized collection of programming tasks with known solutions, used to evaluate a system. The final score reflects both the model's ability and the way the evaluation environment is configured.
+> - **Scaffolding:** everything arranged around the model, including the files it can inspect, the commands it can run, its persistent instructions, and its restrictions. This supporting structure turns a model into an operational agent.
+> - **Agentic copilot:** the complete development tool you interact with, rather than only its underlying model. Two copilots powered by the same model can behave differently because they provide different scaffolding.
+> - **First-pass acceptance:** the percentage of an agent's output that is approved without requiring another attempt. It has a direct impact on daily productivity because every rejected result creates another full feedback cycle.
 
 ## 1. The Experiment That Changes Your Perspective
 
