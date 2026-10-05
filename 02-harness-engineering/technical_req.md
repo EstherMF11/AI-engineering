@@ -147,10 +147,21 @@ Some connection methods require an [Atlassian API token](https://id.atlassian.co
 
 ## 9. Quick Glossary
 
+- **Git:** Tracks changes and manages branches.
+- **Node.js:** Runs JavaScript code.
+- **npm:** Installs JavaScript packages and runs project scripts.
+- **GitHub CLI (`gh`):** Manages GitHub repositories and pull requests from the terminal.
+- **Make:** Automates tasks such as testing and building.
+- **Claude Code:** An AI agent that helps write, explain, and modify code.
 - **CLI:** a program used by typing commands in a terminal. Git, `gh`, `make`, and `claude` are CLIs.
 - **Terminal:** the window where commands are entered.
 - **SSH:** authentication using a public and private key pair.
-- **WSL:** a Linux environment running inside Windows with its own installed programs.
+- **Ubuntu / WSL:** Your Linux environment inside Windows. Start it with:
+
+	```bash
+	wsl -d Ubuntu
+	```
+
 - **MCP:** a standard that connects an agent to external systems and tools.
 - **API token:** a revocable secret used by software instead of a password.
 
