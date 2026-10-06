@@ -16,6 +16,16 @@ make --version
 
 Each command should print a version number. If one says `command not found` or `is not recognized`, install that tool using the section below.
 
+### Reference Environment
+
+These versions were verified in the course author's WSL environment on October 6, 2026. They are a known working combination, not exact version requirements:
+
+- Git: `2.53.0`
+- Node.js: `v24.21.0`
+- Claude Code: `2.1.291`
+- GitHub CLI: `2.46.0`
+- GNU Make: `4.4.1`
+
 ---
 
 ## 2. Git and GitHub Access
